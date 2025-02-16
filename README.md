@@ -2,5 +2,6 @@ Internet Radio Player
 
 To start
 
-1. Activate .venv
-2. flet run main.py --web
+1. install flet, requests: pip install flet requests
+2. Activate .venv
+3. Type command: flet run main.py --web
