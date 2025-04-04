@@ -1,0 +1,49 @@
+{
+    "stations": [
+        {
+            "name": "Radio Ugra",
+            "url": "http://ugra.cdnradio.ru/radiougra",
+            "image_url": "https://ugra-tv.ru/local/templates/radio-ugra/img/ico/logo.jpg"
+        },
+        {
+            "name": "Night Wave Plaza",
+            "url": "http://radio.plaza.one/mp3",
+            "image_url": ""
+        },
+        {
+            "name": "Jazz Radio",
+            "url": "http://streaming.radio.co:80/s774887f7b/listen",
+            "image_url": "https://www.jazzradio.com/Content/images/logo-jazz.png"
+        },
+        {
+            "name": "Dorozhnoe Radio",
+            "url": "https://s0.radioheart.ru:8000/RH75656",
+            "image_url": "https://dorognoe.ru/images/logo_dr_new.png"
+        },
+        {
+            "name": "Europa Plus",
+            "url": "https://listen18.vdfm.ru:8000/z_europaplus",
+            "image_url": "https://europaplus.ru/media/images/logo_new.png"
+        },
+        {
+            "name": "Autoradio",
+            "url": "http://online-1.gkvr.ru:8000/avtoradio_vld_64.aac",
+            "image_url": "https://www.avtoradio.ru/design/images/avtoradio-logo.png"
+        },
+        {
+            "name": "Radio Dacha",
+            "url": "http://online-1.gkvr.ru:8000/dacha_izh_64.aac",
+            "image_url": "https://radiodacha.ru/design/images/radiodacha-logo.png"
+        },
+        {
+            "name": "EHR FM Super Hits",
+            "url": "http://stream.europeanhitradio.com:8000/Stream_21.mp3",
+            "image_url": "https://top-radio.ru/assets/image/radio/180/ehr-superhits.png"
+        },
+        {
+            "name": "LWR Radio Classic",
+            "url": "http://lwrclassic-zaklwr10.radioca.st/live",
+            "image_url": ""
+        }
+    ]
+}
