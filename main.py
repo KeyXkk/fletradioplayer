@@ -1,4 +1,4 @@
-from time import sleep
+
 import flet as ft
 import requests
 import json
@@ -78,7 +78,7 @@ def main(page: ft.Page):
     player = Player(page)
 
     img = ft.Image(
-        src=f"https://img.icons8.com/?size=100&id=89402&format=png&color=000000",
+        src="https://img.icons8.com/?size=100&id=89402&format=png&color=000000",
         width=250,
         height=250,
         fit=ft.ImageFit.CONTAIN,
@@ -166,18 +166,18 @@ def main(page: ft.Page):
 
 
 
-    banner2 = ft.Banner(
-        bgcolor=ft.Colors.AMBER_100,
-        leading=ft.Icon(ft.Icons.WARNING_AMBER_ROUNDED, color=ft.Colors.AMBER, size=40),
-        content=ft.Text(
-            value="Станция уже есть в списке",
-            color=ft.Colors.BLACK,
-        ),
-        actions=[
-            ft.TextButton(text="Попробовать снова", style=action_button_style, on_click=close_banner),
-            ft.TextButton(text="Понятно", style=action_button_style, on_click=close_banner)
-        ],
-    )
+    # banner2 = ft.Banner(
+    #     bgcolor=ft.Colors.AMBER_100,
+    #     leading=ft.Icon(ft.Icons.WARNING_AMBER_ROUNDED, color=ft.Colors.AMBER, size=40),
+    #     content=ft.Text(
+    #         value="Станция уже есть в списке",
+    #         color=ft.Colors.BLACK,
+    #     ),
+    #     actions=[
+    #         ft.TextButton(text="Попробовать снова", style=action_button_style, on_click=close_banner),
+    #         ft.TextButton(text="Понятно", style=action_button_style, on_click=close_banner)
+    #     ],
+    # )
 
 
     
