@@ -75,7 +75,7 @@ def main(page: ft.Page):
     player = Player(page)
 
     img = ft.Image(
-        src="https://img.icons8.com/?size=100&id=89402&format=png&color=000000",
+        src="radio.png",
         width=250,
         height=250,
         fit=ft.ImageFit.CONTAIN,
@@ -118,16 +118,6 @@ def main(page: ft.Page):
                 break
 
 
-
-    # def dropdown_clicked(e):
-    #     print("dropdown_clicked")
-    #     with open("stations.json", "r") as f:
-    #         stations_data = json.load(f)
-    #     dropdown.options = [ft.dropdown.Option(text=station['name'], key=station['url']) for station in stations_data['stations']]
-    #     page.update()
-
-
-
     def close_banner(e):
         page.close(banner)
 
@@ -160,27 +150,6 @@ def main(page: ft.Page):
             ft.TextButton(text="Понятно", style=action_button_style, on_click=close_banner)
         ],
     )
-
-
-
-    # banner2 = ft.Banner(
-    #     bgcolor=ft.Colors.AMBER_100,
-    #     leading=ft.Icon(ft.Icons.WARNING_AMBER_ROUNDED, color=ft.Colors.AMBER, size=40),
-    #     content=ft.Text(
-    #         value="Станция уже есть в списке",
-    #         color=ft.Colors.BLACK,
-    #     ),
-    #     actions=[
-    #         ft.TextButton(text="Попробовать снова", style=action_button_style, on_click=close_banner),
-    #         ft.TextButton(text="Понятно", style=action_button_style, on_click=close_banner)
-    #     ],
-    # )
-
-
-    
-
-
-
 
 
     def slider_changed(e):
@@ -330,13 +299,13 @@ def main(page: ft.Page):
         content=ft.Column(
             controls=[
                 ft.Text("GoldRadio Player", size=20, weight=ft.FontWeight.BOLD),
-                ft.Text("Версия 1.0"),
+                ft.Text("Версия 1.1"),
                 ft.Text(""),
                 ft.Text("Разработано с использованием:"),
                 ft.Text("• Python"),
                 ft.Text("• Flet Framework"),
                 ft.Text(""),
-                ft.Text("© 2024 GoldRadio Player")
+                ft.Text("© 2025 GoldRadio Player")
             ],
             alignment=ft.MainAxisAlignment.CENTER,
         ),
