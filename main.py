@@ -1,4 +1,3 @@
-
 import flet as ft
 import requests
 import json
@@ -17,8 +16,6 @@ with open("stations.json", "r") as f:
 
 class Player:
     def __init__(self, page: ft.Page):
-
-        # Создаем аудиоплеер Flet. Параметр 'visible' удалён, так как он больше не поддерживается.
         self.audio = ft.Audio(src=url_on_dropdown, autoplay=False)
         # Устанавливаем громкость по умолчанию (0.5 соответствует 50%)
         self.audio.volume = 0.5
